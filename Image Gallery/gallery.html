@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Image Gallery</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <h2>Muhammad Zain Sajid</h2>
+          <p>Photographer</p>
+        </div>
+        <nav>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </nav>
+        <div>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+        </div>
+      </div>
+    </header>
+    <section class="slider">
+      <div class="slider-container">
+        <div class="slides">
+          <div class="slide">
+            <img src="Slider (1).jpg" alt="Slide 1" />
+          </div>
+          <div class="slide">
+            <img src="Slider (2).jpg" alt="Slide 2" />
+          </div>
+          <div class="slide">
+            <img src="Slider (3).jpg" alt="Slide 3" />
+          </div>
+        </div>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+      </div>
+    </section>
+    <main class="gallery">
+      <div class="gallery-item">
+        <img src="image (1).jpg" alt="Image 1" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (2).jpg" alt="Image 2" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (3).jpg" alt="Image 3" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (4).jpg" alt="Image 4" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (5).jpg" alt="Image 5" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (6).jpg" alt="Image 6" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (7).jpg" alt="Image 7" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (8).jpg" alt="Image 8" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (9).jpg" alt="Image 9" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (10).jpg" alt="Image 10" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (11).jpg" alt="Image 11" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (12).jpg" alt="Image 12" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (13).jpg" alt="Image 13" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (14).jpg" alt="Image 14" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (15).jpg" alt="Image 15" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (16).jpg" alt="Image 16" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (17).jpg" alt="Image 17" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (18).jpg" alt="Image 18" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (19).jpg" alt="Image 19" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (20).jpg" alt="Image 20" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (21).jpg" alt="Image 21" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (22).jpg" alt="Image 22" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (23).jpg" alt="Image 23" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (24).jpg" alt="Image 24" loading="lazy" />
+      </div>
+      <div class="gallery-item">
+        <img src="image (25).jpg" alt="Image 25" loading="lazy" />
+      </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" src="" alt="" />
+    </div>
+
+    <hr />
+
+    <footer>
+      <div class="footer-content">
+        <div>
+          <h2>Muhammad Zain Sajid</h2>
+        </div>
+        <div>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-twitter"></i>
+        </div>
+      </div>
+      <p>&copy; 2024 | Image Gallery</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
